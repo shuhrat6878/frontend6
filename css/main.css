@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+.container {
+  width: 1217px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.title {
+  font-weight: 400;
+  font-size: 40px;
+}
+
+.b {
+  border: 1px solid red;
+}
+
+body {
+  font-family: "Mulish", sans-serif;
+}
+
+/*  */
+.header {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.header__block {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__list {
+  display: flex;
+  gap: 40px;
+}
+
+.header__link {
+  font-weight: 400;
+  font-size: 18px;
+  color: #575067;
+}
+
+.header__link:hover {
+  color: red;
+}
+
+/*  */
+.hero__title {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 117%;
+  margin-bottom: 25px;
+  color: #000;
+}
+
+.hero__text {
+  font-weight: 300;
+  font-size: 21px;
+  line-height: 152%;
+  color: #7d7987;
+  margin-bottom: 39px;
+}
+
+.hero__link {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 111%;
+  color: #458ff6;
+  border-radius: 55px;
+
+  border: 1px solid #458ff6;
+  padding: 17px 50px;
+  display: inline-block;
+
+}
+
+.hero__content {
+  width: 446px;
+}
+
+.hero__block {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.service {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.service__title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 156%;
+  color: #000;
+  text-align: center;
+  margin-bottom: 26px;
+}
+
+.service__line {
+  border-radius: 5px;
+  width: 56px;
+  height: 2px;
+  background-color: #000;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 33px;
+}
+
+.service__text {
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 167%;
+  text-align: center;
+  color: #7d7987;
+  margin-bottom: 78px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 952px;
+}
+
+.service__item {
+  width: 350px;
+  padding: 62px 52px 47px 36px;
+  box-shadow: 10px 10px 50px 0 rgba(14, 57, 199, 0.4);
+  border-radius: 20px;
+
+}
+
+.service__img {
+  margin-bottom: 19px;
+}
+
+.service__sub_title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 233%;
+  color: #000;
+}
+
+.service__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  column-gap: 29px;
+  row-gap: 37px;
+}
