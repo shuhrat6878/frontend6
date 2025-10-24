@@ -21,7 +21,7 @@ img {
 }
 
 .container {
-    max-width: 1150px;
+    max-width: 1440px;
     margin-left: auto;
     margin-right: auto;
     padding-right: 20px;
@@ -91,9 +91,45 @@ body {
     text-align: center;
     color: #fff;
 }
-.result__list{
+
+.result__list {
     margin-bottom: 164px;
 }
-.result__iteam{
+
+.result__iteam {
     margin-top: 48px;
+}
+
+@media screen and (min-width: 768px) {
+    .result__title {
+        font-weight: 700;
+        margin-top: 100px;
+        width: 573px;
+    }
+
+    .result__list {
+        width: 573px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media screen and (min-width:1200px) {
+    .result__title {
+        font-weight: 700;
+        font-size: 48px;
+        margin-top: 140px;
+    }
+
+    .result__list {
+        width: 1110px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .result__iteam{
+        margin-bottom: 0px;
+    }
+
+
 }
