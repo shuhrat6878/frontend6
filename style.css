@@ -1,0 +1,29 @@
+body {
+      font-family:sans-serif;
+      padding: 10px;
+    }
+    input {
+      padding: 16px;
+      margin-right: 10px;
+      color: red;
+    }
+    button {
+      padding: 16px 28px;
+      cursor: pointer;
+    }
+    ul {
+      margin-top: 20px;
+      color:green;
+    }
+    li {
+      margin-bottom: 30px;
+      color: blue;
+    }
+    .edit, .delete {
+      margin-left: 10px;
+    }
+
+    .btn{
+        border-color: brown;
+        border-collapse: 6px solid red;
+    }
